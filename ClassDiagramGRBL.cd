@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CoreControllers.Controller">
+    <Position X="6" Y="0.5" Width="3.75" />
+    <Members>
+      <Method Name="_comPort_DataReceived" Hidden="true" />
+      <Field Name="_isConnected" Hidden="true" />
+      <Field Name="BUFFER_DATA" Hidden="true" />
+      <Field Name="EnableEventTouchPin" Hidden="true" />
+      <Field Name="keepLink" Hidden="true" />
+      <Field Name="locker" Hidden="true" />
+      <Method Name="ParseCommand" Hidden="true" />
+      <Method Name="ParseProperty" Hidden="true" />
+      <Method Name="RefreshPropertyReport" Hidden="true" />
+      <Method Name="RefreshStatusReport" Hidden="true" />
+      <Method Name="SendInfo" Hidden="true" />
+      <Field Name="thWorker" Hidden="true" />
+      <Method Name="ThWorker_DoWork" Hidden="true" />
+      <Method Name="ThWorker_RunWorkerCompleted" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="CoreControllers.Controller.EventСmdArgs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="CoreControllers.Controller.EventStringArgs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Delegate Name="CoreControllers.Controller.EventInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Class Name="CoreControllers.Controller.EventArgsInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Enum Name="CoreControllers.Controller.InfoMessageStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAAkEJAAgAEBIUBAAUbIAJAmFAAAAFAACAQAgEBAAAQ=</HashCode>
+      <FileName>controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreControllers.Setting" Collapsed="true">
+    <Position X="15" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AZAAgEUEgIAAKwgAAQoBwggjCMDIBQgFwgACBECAAAA=</HashCode>
+      <FileName>controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreControllers.Position" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAIIAAAYAE=</HashCode>
+      <FileName>controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreControllers.DataCommand">
+    <Position X="0.5" Y="4.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYAAAAAAAAAAAIAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreControllers.DataManager">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <Members>
+      <Field Name="IndexRecord" Hidden="true" />
+      <Field Name="StackForSend" Hidden="true" />
+      <Field Name="StackOtherData" Hidden="true" />
+      <Field Name="StackRealtime" Hidden="true" />
+      <Field Name="StackReception" Hidden="true" />
+      <Field Name="StackSending" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>JAQAQAQAAEAAAAAAAAAADEAAAAIYQAAAAIAAJQCCAAA=</HashCode>
+      <FileName>controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreControllers.Axle">
+    <Position X="10.25" Y="1.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAACAAAABAAAAAAAAEAAAAAAgAAAgAAAAAAA=</HashCode>
+      <FileName>controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreControllers.GcodeParserState" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAACAICABACEAAIAgACgIBAAAAAAAQAIBAAAAAAAA=</HashCode>
+      <FileName>controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CoreControllers.EnumStatusDevice" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKhAAQAAAAAAAAAAAAAAAAwAAAAAAABAAAAAAAI=</HashCode>
+      <FileName>controller.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CoreControllers.ControllerRealTimeCommand" Collapsed="true">
+    <Position X="14.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIIgIEIAAAAAAAAQAQQgAgQAAQgBAAAAACIEAAAAAqA=</HashCode>
+      <FileName>controller.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CoreControllers.DeviceBoard" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>controller.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CoreControllers.eSourceData" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>controller.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CoreControllers.ControllerCommand" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAIAgAAAAAAAAAwAAAAAEAAAAAAAAAAAAIAQAQQ=</HashCode>
+      <FileName>controller.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
